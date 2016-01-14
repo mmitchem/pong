@@ -53,7 +53,7 @@ void draw() {
        (ball_y < paddle_y + paddle_height + ball_size) && (ball_dir>0)) {
 
         // If we hit the paddle... change direction
-        ball_dir *= -1;
+        ball_dir *= 1;
 
         // Send a message to the main page updating the score...
         score += 1;
