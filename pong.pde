@@ -28,7 +28,7 @@ void setup() {
 
 void draw() {
     // Background color... RGB
-    background(204,50,204);
+    background(204,50,250);
 
     // Increment x and y by speed of ball
     ball_x += ball_dir * 5.0;
@@ -89,10 +89,10 @@ void draw() {
     }
 
     // Draw ball
-    fill(0,0,255);
+    fill(51,0,102);
     ellipse(ball_x, ball_y, ball_size, ball_size);
 
     // Draw the paddle
-    fill(255,255,255);
+    fill(0,255,204);
     rect(width-dist_wall, paddle_y, paddle_width, paddle_height);  
 };
