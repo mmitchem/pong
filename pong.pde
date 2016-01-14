@@ -34,7 +34,7 @@ void draw() {
     ball_x += ball_dir * 6.0;
     ball_y += dy;
 
-    // If the ball was missed... start over
+    // If the ball was missed... add 10 points
     if(ball_x > width+ball_size) {
         ball_x = -width/2 - ball_size;
         ball_y = random((0.25*height), (0.75*height));
