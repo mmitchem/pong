@@ -61,7 +61,7 @@ void draw() {
 
         // Adding in the total hits here...
         total += 1;
-        //document.getElementById("total").innerHTML = "Total Hits = " + total;
+        document.getElementById("total").innerHTML = "Total Hits = " + total;
 
         if (score>highscore) {
           highscore = score;
