@@ -7,7 +7,7 @@ float dy = 2;  // Change in y
 
 // Global variables for the paddle
 var paddle_width = 5;
-var paddle_height = 40;
+var paddle_height = 70;
 
 var dist_wall = 8;
 
@@ -27,8 +27,8 @@ void setup() {
 };
 
 void draw() {
-    // Background color... PBW
-    background(155,0,0);
+    // Background color... RGB
+    background(204,102,98);
 
     // Increment x and y by speed of ball
     ball_x += ball_dir * 5.0;
