@@ -93,6 +93,6 @@ void draw() {
     ellipse(ball_x, ball_y, ball_size, ball_size);
 
     // Draw the paddle
-    fill(0,255,204);
+    fill(50,0,20);
     rect(width-dist_wall, paddle_y, paddle_width, paddle_height);  
 };
